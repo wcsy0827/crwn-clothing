@@ -1,0 +1,8 @@
+//在新版本的react專案使用sass，要安裝resole-url-loader，不然會報錯
+//指令yarn add resolve-url-loader --dev
+.directory-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
