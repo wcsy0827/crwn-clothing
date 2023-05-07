@@ -1,7 +1,7 @@
 //import './categories.styles.scss';
 //import CategoryItem from './components/category-item/category-item.component';
 import Directoty from '../../components/directory/directory.component'
-
+import { Outlet } from 'react-router-dom';
 const Home = () => {
     const categories = [
         //只有title需要拉出來，shop now不會改變就不拉出來
@@ -35,7 +35,10 @@ const Home = () => {
 
     ]
     return (
-        <Directoty categories={categories} />
+        <div>
+            <Outlet />
+            <Directoty categories={categories} />
+        </div>
     );
 
 };

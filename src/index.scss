@@ -9,3 +9,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+//anchor tag
+//取消連結物件下方的底線
+a {
+  text-decoration: none;
+  color: black;
+}
+// * 匹配任何物件
+* {
+  box-sizing: border-box;
+}
